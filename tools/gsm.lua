@@ -11,7 +11,7 @@ function gsm:tick(dt)
 	
 end
 
-function gsm:goto(s)
+function gsm:gotoScene(s)
 
 	if #scenes > 0 then
 		scenes[1]:destroy()

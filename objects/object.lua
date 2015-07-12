@@ -1,5 +1,7 @@
 local Object = {}
 
+local gfx = getGFX()
+
 function Object:new(x,y,w,h,frame,id)
 	local object = gfx:sprite(getOBM().spriteSheet,frame,x,y,64,64)
 

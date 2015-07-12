@@ -10,7 +10,7 @@ function gfx:spriteSheet(img,w,h)
 	    sheetContentWidth = 256,
     	sheetContentHeight = 256 
 	}
-	local sheet = graphics.newImageSheet( "assets/images/"..img, options )
+	local sheet = graphics.newImageSheet( "assets/"..img, options )
 
 	return sheet
 end

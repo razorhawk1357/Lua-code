@@ -14,7 +14,7 @@ function obm:load()
 	camera = getCamera()
 	gfx    = getGFX()
 
-	--self.spriteSheet = gfx:spriteSheet("spriteSheet.png",16,16)
+	self.spriteSheet = gfx:spriteSheet("spriteSheet.png",16,16)
 end
 
 function obm:tick(dt)

@@ -10,9 +10,8 @@ local GameLoop = require ("tools.gameLoop")
 -- local init
 local main = {}
 -- global init
-GAME_TIME = 0
+GAME_TIME = 0 -- global game ticker
 gameLoop  = GameLoop:new()
-
 gameLoop:start()
 -- functions
 function main:tick(dt)
